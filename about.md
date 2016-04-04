@@ -24,5 +24,5 @@ This application was developed as the project for the Coursera Developing Data P
 
 The source code for this application can be found at [GitHub](https://github.com/kjd58/Coursera-Develop-Data-Products-Project.git) and the live version *if running* can be found at [Shinyappsio](https://kjd58.shinyapps.io/CarChooser/)  
    
-
+The slidify presentation can be found at [Rpubs](http://rpubs.com/kjd58/167987)
 
