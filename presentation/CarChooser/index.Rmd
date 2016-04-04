@@ -1,0 +1,65 @@
+---
+title       : Car Chooser
+subtitle    : Coursera Developing Data Products Project
+author      : Kevin Dyke
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Background
+
+This data product was developed as the project for the **Coursera Developing Data Products** course.
+
+The project selects a range of cars from the R built-in dataset *mtcars*.
+
+```{r}
+data(mtcars)
+head(mtcars,5)
+```
+
+
+--- .class #id 
+
+## Data Entry
+
+The user is required to enter:
+
+* The required number of cylinders
+* The maximum required displacement
+* The maximum required horse power
+* The required number of gears
+* The type of transmission required
+ 
+In a checkbox group the user may enter as many options as required but must enter at least _one_ option. For the slider the value shown on the slider represents the _maximum_ required value.
+
+After entering the data the user should press the *Select Car Models!* button.
+
+--- .class #id
+
+## Output
+
+The applications has three outputs
+
+* If any checkbox group is left empty the applications displays _Please enter more data choices_
+* If no models match the users requirements the applications displays _Sorry there are zero matches for your data_
+* Otherwise the car models matching the user requirements are displayed.
+
+--- .class #id
+
+## Project Details
+
+The source for the project can be found on GitHub at:
+https://github.com/kjd58/Coursera-Develop-Data-Products-Project.git
+
+The live version is located at:
+https://kjd58.shinyapps.io/CarChooser/
+
+This presentation is located at:
+
+
+
